@@ -1,0 +1,53 @@
+[
+    {
+        "model": "adie_app.offer",
+        "pk": 1,
+        "fields": {
+            "adie_id": "1",
+            "negotiations": "True",
+            "base_amount": "115000",
+            "signing_bonus": "20000",
+            "relocation_package": "15000",
+            "health_insurance": "1000",
+            "retirement": "50% match",
+            "vacation_days": "21",
+            "company_id": "2",
+            "hire_type": "External",
+            "stocks": "20"
+        }
+    },
+    {
+        "model": "adie_app.offer",
+        "pk": 2,
+        "fields": {
+            "adie_id": "2",
+            "negotiations": "False",
+            "base_amount": "120000",
+            "signing_bonus": "25000",
+            "relocation_package": "0",
+            "health_insurance": "800",
+            "retirement": "33% match",
+            "vacation_days": "14",
+            "company_id": "1",
+            "hire_type": "Internal",
+            "stocks": "40"
+        }
+    },
+    {
+        "model": "adie_app.offer",
+        "pk": 3,
+        "fields": {
+            "adie_id": "1",
+            "negotiations": "True",
+            "base_amount": "115000",
+            "signing_bonus": "30000",
+            "relocation_package": "0",
+            "health_insurance": "1600",
+            "retirement": "40% match",
+            "vacation_days": "21",
+            "company_id": "2",
+            "hire_type": "Internal",
+            "stocks": "50"
+        }
+    }
+]

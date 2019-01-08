@@ -12,6 +12,7 @@ requests = "*"
 react-js = "*"
 node-js = "*"
 psycopg2 = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"

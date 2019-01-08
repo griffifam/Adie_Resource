@@ -1,0 +1,41 @@
+[
+    {
+        "model": "adie_app.adie",
+        "pk": 1,
+        "fields": {
+            "age": "24",
+            "gender": "female",
+            "race": "Black",
+            "orientation": "lesbian",
+            "transplant": "True",
+            "location_city": "Seattle",
+            "location_state": "Washington"
+        }
+    },
+    {
+        "model": "adie_app.adie",
+        "pk": 2,
+        "fields": {
+            "age": "30",
+            "gender": "female",
+            "race": "White",
+            "orientation": "Straight",
+            "transplant": "False",
+            "location_city": "Seattle",
+            "location_state": "Washington"
+        }
+    },
+    {
+        "model": "adie_app.adie",
+        "pk": 3,
+        "fields": {
+            "age": "41",
+            "gender": "female",
+            "race": "White",
+            "orientation": "Straight",
+            "transplant": "True",
+            "location_city": "San Francisco",
+            "location_state": "California"
+        }
+    }
+]

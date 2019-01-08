@@ -1,0 +1,41 @@
+[
+    {
+        "model": "adie_app.company",
+        "pk": 1,
+        "fields": {
+            "company_size": "small company",
+            "org_size": "12",
+            "location_city": "Seattle",
+            "location_state": "Washington",
+            "adies_present": "True",
+            "industry": "IT/Business",
+            "level_of_microaggressions": "one comment"
+        }
+    },
+    {
+        "model": "adie_app.company",
+        "pk": 2,
+        "fields": {
+            "company_size": "large company",
+            "org_size": "22",
+            "location_city": "Seattle",
+            "location_state": "Washington",
+            "adies_present": "False",
+            "industry": "Software",
+            "level_of_microaggressions": "two comments"
+        }
+    },
+    {
+        "model": "adie_app.company",
+        "pk": 3,
+        "fields": {
+            "company_size": "startup company",
+            "org_size": "50",
+            "location_city": "San Francisco",
+            "location_state": "California",
+            "adies_present": "False",
+            "industry": "Cloud Services",
+            "level_of_microaggressions": "None"
+        }
+    }
+]
