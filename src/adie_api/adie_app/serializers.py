@@ -10,7 +10,7 @@ class AdieSerializer(serializers.ModelSerializer):
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
         model = Company
-        fields = ("adies_present", "industry", "location_city", "location_state", "org_size", "company_size", "level of microaggressions")
+        fields = ("adies_present", "industry", "location_city", "location_state", "org_size", "company_size", "level_of_microaggressions")
 
 class OfferSerializer(serializers.ModelSerializer):
     class Meta:

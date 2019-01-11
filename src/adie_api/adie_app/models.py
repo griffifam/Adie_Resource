@@ -69,7 +69,7 @@ class Company(models.Model):
     location_state = models.CharField(max_length=120)
     industry = models.CharField(max_length=128)
     adies_present = models.BooleanField(default=False, null=True)
-    level_of_microaggressions = models.CharField(max_length=120, choices=MICROAGGRESSIONS)
+    level_of_microaggressions = models.CharField(max_length=120, choices=MICROAGGRESSIONS, null=True)
 
     class Meta:
         verbose_name = 'Company'

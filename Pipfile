@@ -13,6 +13,7 @@ react-js = "*"
 node-js = "*"
 psycopg2 = "*"
 coverage = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.7"
