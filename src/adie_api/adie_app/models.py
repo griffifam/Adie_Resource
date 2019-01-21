@@ -29,9 +29,9 @@ class Adie(models.Model):
     )
     ORIENTATION = (
         ('straight', 'straight'),
-        ('queer', 'lesbian'),
-        ('queer', 'gay'),
-        ('queer', 'bisexual'),
+        ('queer-lesbian', 'lesbian'),
+        ('queer-gay', 'gay'),
+        ('queer-bisexual', 'bisexual'),
         ('asexual', 'asexual'),
     )
     age = models.IntegerField()

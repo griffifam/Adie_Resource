@@ -11,6 +11,13 @@ class AdieListView(generics.ListAPIView):
     queryset = Adie.objects.all()
     serializer_class = AdieSerializer
 
+class AdieCreateView(generics.CreateAPIView):
+    lookup_field = 'pk'
+    serializer_class = AdieSerializer
+
+    def get_queryset(self):
+        return Adie.Objects.all()
+
 class CompanyListView(generics.ListAPIView):
     """
     Provides a get method handler.
@@ -18,9 +25,23 @@ class CompanyListView(generics.ListAPIView):
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
 
+class CompanyCreateView(generics.CreateAPIView):
+    lookup_field = 'pk'
+    serializer_class = CompanySerializer
+
+    def get_queryset(self):
+        return Company.Objects.all()
+
 class OfferListView(generics.ListAPIView):
     """
     Provides a get method handler.
     """
     queryset = Offer.objects.all()
     serializer_class = OfferSerializer
+
+class OfferCreateView(generics.CreateAPIView):
+    lookup_field = 'pk'
+    serializer_class = OfferSerializer
+
+    def get_queryset(self):
+        return Offer.Objects.all()
