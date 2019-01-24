@@ -12,6 +12,9 @@ class AdieListView(generics.ListAPIView):
     serializer_class = AdieSerializer
 
 class AdieCreateView(generics.CreateAPIView):
+    """
+    Provides a post method handler.
+    """
     lookup_field = 'pk'
     serializer_class = AdieSerializer
 
@@ -26,6 +29,9 @@ class CompanyListView(generics.ListAPIView):
     serializer_class = CompanySerializer
 
 class CompanyCreateView(generics.CreateAPIView):
+    """
+    Provides a post method handler.
+    """
     lookup_field = 'pk'
     serializer_class = CompanySerializer
 
@@ -40,6 +46,9 @@ class OfferListView(generics.ListAPIView):
     serializer_class = OfferSerializer
 
 class OfferCreateView(generics.CreateAPIView):
+    """
+    Provides a post method handler.
+    """
     lookup_field = 'pk'
     serializer_class = OfferSerializer
 

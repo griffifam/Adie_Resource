@@ -5,7 +5,27 @@ from .models import Adie, Company, Offer
 class AdieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Adie
-        fields = ("age", "gender", "location_city", "location_state", "orientation", "race", "transplant")
+        fields = [
+        "age",
+        "gender",
+        "location_city",
+        "location_state",
+        "orientation",
+        "race",
+        "transplant"
+        ]
+class AdieCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Adie
+        fields = [
+        "age",
+        "gender",
+        "location_city",
+        "location_state",
+        "orientation",
+        "race",
+        "transplant"
+        ]
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
